@@ -1,0 +1,17 @@
+body { /* Added styles for centering */
+    text-align: center; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}

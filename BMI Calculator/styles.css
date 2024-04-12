@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px auto; /* Margin of 30px from the top, auto on sides to center */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px;
+}
+
+.form-container label,
+.form-container input {
+    margin-bottom: 10px; /* Added margin between input fields */
+    width: 30%;
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+} 
+
+#calculate-btn {
+    padding: 10px 20px; /* Added padding to the button */
+    margin-top: 15px;  /* Added margin above the button*/
+    width: 30%;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+#calculate-btn:hover{
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 40px;
+}
