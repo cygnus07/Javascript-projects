@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Banner with Clock</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;          
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;   
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .banner {
+            /* background-color: #f0f0f0; */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        #clock {
+            font-size: 24px;
+            background-color: orange;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="banner">
+            <span>Your local time</span>
+            <div id="clock"> 
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
