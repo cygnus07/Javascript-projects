@@ -72,7 +72,7 @@ function displayMessage(message){
 }
 
 function endGame(){
-    input.value = ''
+    input.value = '' 
     input.setAttribute('disabled', '')
     p.classList.add('button')
     p.innerHTML = `<h2 id="newGame" style="cursor: pointer;" > Start New Game</h2>`
